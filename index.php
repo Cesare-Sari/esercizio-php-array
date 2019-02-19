@@ -12,11 +12,23 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <h2>questo è un sito in html </h2>
-    <h3>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h3>
+    <h2>questo è un sito in htm e php </h2>
 
-    
-   
+    <ul>
+
+    <?php  
+
+      $arr = ["mela" ,"kiwi", "pera"];
+
+      for ($i=0; $i < count($arr); $i++) 
+        { 
+          echo '<li>'. $arr[$i] .'</li>';
+        }
+
+    ?>
+
+    </ul>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
